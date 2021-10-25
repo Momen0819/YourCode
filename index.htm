@@ -1,0 +1,770 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <title>غيوم الوسائط</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="Amir Nageh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css Files -->
+    <link href="css\style.css" rel="stylesheet">
+    <link href="css\bootstrap-rtl.min.css" rel="stylesheet">
+<!--            <link href="css/style-en.css" rel="stylesheet">-->
+    <link href="css\style-res.css" rel="stylesheet">
+
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images\faveicon.png">
+
+</head>
+
+<body>
+
+
+    <div class="loader loader--active">
+        <div class="loader__icon">
+            <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewbox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+                <path opacity="0.3" fill="#0a1f58" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+                <path fill="#fff" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
+                <animatetransform attributetype="xml" attributename="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatcount="indefinite"></animatetransform>
+            </svg>
+        </div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+    </div>
+
+    <div class="wrapper col-xs-12">
+
+        <header class="main-head col-xs-12">
+            <div class="container">
+                <div class="logo">
+                    <h1>
+                        <a href="#">
+                            <img src="images\logo.png" alt="">
+                        </a>
+                    </h1>
+                </div>
+                <div class="main-nav">
+                    <ul>
+                        <li class="active">
+                            <a href="#home" class="sh-home">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about" class="sh-about">من نحن</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#services" class="sh-services">خدماتنا</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">خدمة التسويق</a>
+                                </li>
+                                <li>
+                                    <a href="#">خدمة الدعايا والاعلان</a>
+                                </li>
+                                <li>
+                                    <a href="#">المعارض والفاعليات</a>
+                                </li>
+                                <li>
+                                    <a href="#">الانتاج المرئي والمسموع</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#works" class="sh-works">أعمالنا</a>
+                        </li>
+                        <li>
+                            <a href="#news" class="sh-news">اخبار كلاود</a>
+                        </li>
+                        <li>
+                            <a href="#clients" class="sh-clients">عملائنا</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="sh-contact">اتصل بنا</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="b-left">
+                    <button type="button" class="open-sidebar">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="social">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li class="lang">
+                                <a href="#">english</a>
+                            </li>
+                            <li class="search">
+                                <a href="javascript:void(0)" class="open-srch">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay_gen"></div>
+            <div class="sidebar">
+                <div class="side-logo">
+                    <a href="#">
+                        <img src="images\logo.png" alt="">
+                    </a>
+                </div>
+                <div class="side-social">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="side-nav">
+                    <ul>
+                        <li class="active">
+                            <a href="#home" class="sh-home">الرئيسية</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="sh-about">من نحن</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="javascript:void(0)" class="sh-services">خدماتنا</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">خدمة التسويق</a>
+                                </li>
+                                <li>
+                                    <a href="#">خدمة الدعايا والاعلان</a>
+                                </li>
+                                <li>
+                                    <a href="#">المعارض والفاعليات</a>
+                                </li>
+                                <li>
+                                    <a href="#">الانتاج المرئي والمسموع</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#works" class="sh-works">أعمالنا</a>
+                        </li>
+                        <li>
+                            <a href="#news" class="sh-news">اخبار كلاود</a>
+                        </li>
+                        <li>
+                            <a href="#clients" class="sh-clients">عملائنا</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="sh-contact">اتصل بنا</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="[ search-overlay ] js-search-overlay">
+
+            <div class="[ search-overlay__close icon--close-button ] js-search-close">
+                <span></span>
+                <span></span>
+            </div>
+
+            <form id="hero-search" name="hero-search" action="https://baltictraining.com">
+                <label for="site-search">بحث:</label>
+                <div class="input-container">
+                    <input id="site-search" type="search" name="s" value="">
+                    <span class="input-container__underline"></span>
+                </div>
+            </form>
+
+        </div>
+        <main class="main-content col-xs-12">
+            <div class="home-section col-xs-12" id="home">
+                <div class="hero-s col-xs-12">
+                    <div class="hero-slider">
+                        <div class="item" style="background-image: url(images/hero.png)">
+                            <a href="#"></a>
+                        </div>
+                        <div class="item" style="background-image: url(images/hero.png)">
+                            <a href="#"></a>
+                        </div>
+                        <div class="item" style="background-image: url(images/hero.png)">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-s col-xs-12">
+                    <div class="container">
+                        <div class="g-head col-xs-12">
+                            <h3>خدماتنا</h3>
+                        </div>
+                        <div class="g-body col-xs-12">
+                            <div class="block col-md-3 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <a href="#">
+                                        <div class="icon">
+                                            <img src="images\service\1.png" class="norm" alt="">
+                                            <img src="images\service\11.png" class="hov" alt="">
+                                        </div>
+                                        <div class="data">
+                                            <h3>خدمة التسويق</h3>
+                                            <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                وهي أن المحتوى المقروء لصفحة
+                                                ما سيلهي القارئ عن التركيز</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="block col-md-3 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <a href="#">
+                                        <div class="icon">
+                                            <img src="images\service\2.png" class="norm" alt="">
+                                            <img src="images\service\22.png" class="hov" alt="">
+                                        </div>
+                                        <div class="data">
+                                            <h3>خدمة الدعايا والاعلان</h3>
+                                            <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                وهي أن المحتوى المقروء لصفحة
+                                                ما سيلهي القارئ عن التركيز</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="block col-md-3 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <a href="#">
+                                        <div class="icon">
+                                            <img src="images\service\3.png" class="norm" alt="">
+                                            <img src="images\service\33.png" class="hov" alt="">
+                                        </div>
+                                        <div class="data">
+                                            <h3>المعارض والفاعليات</h3>
+                                            <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                وهي أن المحتوى المقروء لصفحة
+                                                ما سيلهي القارئ عن التركيز</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="block col-md-3 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <a href="#">
+                                        <div class="icon">
+                                            <img src="images\service\4.png" class="norm" alt="">
+                                            <img src="images\service\44.png" class="hov" alt="">
+                                        </div>
+                                        <div class="data">
+                                            <h3>الانتاج المرئي والمسموع</h3>
+                                            <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                وهي أن المحتوى المقروء لصفحة
+                                                ما سيلهي القارئ عن التركيز</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-s col-xs-12">
+                    <div class="container">
+                        <div class="g-head col-xs-12">
+                            <h3>عملائنا</h3>
+                        </div>
+                        <div class="cl-slider">
+                            <div class="item">
+                                <img src="images\clients\1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images\clients\2.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images\clients\3.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images\clients\4.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images\clients\5.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images\clients\6.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images\clients\2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-section col-xs-12" id="about">
+                <div class="jumbo col-xs-12" style="background-image: url(images/clinet-bg.jpg)">
+                    <div class="container">
+                        <h3>من نحن</h3>
+                        <p>نحن مجموعة مؤسسات تقدم خدمات نوعية في التسويق والطباعة والدعاية واعلان وكل
+                            مايخص الصـوت والصورة وتنظيم الفعاليات والمهرجانات والمؤتمرات عبر فريق متخصص ذو كفاءة لتقديم خدمات ترضي عملائنا في مختلف القطاعات.</p>
+                    </div>
+                </div>
+                <div class="ab-inbody col-xs-12">
+                    <div class="container">
+                        <div class="block col-md-4 col-xs-12">
+                            <h3>رؤيتنا</h3>
+                            <p>نحن مجموعة مؤسسات تقدم خدمات نوعية في التسويق والطباعة والدعاية والإعلان وكل مايخص الصـوت والصورة وتنظيم الفعاليات والمهرجانات والمؤتمرات عبر فريق متخصص ذو كفاءة لتقديم خدمات ترضي عملائنا في مختلف القطاعات.</p>
+                        </div>
+                        <div class="block col-md-4 col-xs-12">
+                            <h3>أهدافنا</h3>
+                            <p>نحن مجموعة مؤسسات تقدم خدمات نوعية في التسويق والطباعة والدعاية والإعلان وكل مايخص الصـوت والصورة وتنظيم الفعاليات والمهرجانات والمؤتمرات عبر فريق متخصص ذو كفاءة لتقديم خدمات ترضي عملائنا في مختلف القطاعات.</p>
+                        </div>
+                        <div class="block col-md-4 col-xs-12">
+                            <h3>مهمتنا</h3>
+                            <p>نحن مجموعة مؤسسات تقدم خدمات نوعية في التسويق والطباعة والدعاية والإعلان وكل مايخص الصـوت والصورة وتنظيم الفعاليات والمهرجانات والمؤتمرات عبر فريق متخصص ذو كفاءة لتقديم خدمات ترضي عملائنا في مختلف القطاعات.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="works-section col-xs-12" id="works">
+                <div class="jumbo col-xs-12" style="background-image: url(images/clinet-bg.jpg)">
+                    <div class="container">
+                        <h3>أعمالنـا</h3>
+                        <p>نحن مجموعة مؤسسات تقدم خدمات نوعية في التسويق والطباعة والدعاية واعلان وكل
+                            مايخص الصـوت والصورة وتنظيم الفعاليات والمهرجانات والمؤتمرات عبر فريق متخصص ذو كفاءة لتقديم خدمات ترضي عملائنا في مختلف القطاعات.</p>
+                    </div>
+                </div>
+                <div class="ab-inbody col-xs-12">
+                        <div class="container">
+                            <div class="works-slider">
+                                <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <div class="i-img" style="background-image: url(images/clinet-bg.jpg)"></div>
+                                            <h3>
+                                                اسم العمل هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <div class="i-img" style="background-image: url(images/clinet-bg.jpg)"></div>
+                                            <h3>
+                                                اسم العمل هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <div class="i-img" style="background-image: url(images/clinet-bg.jpg)"></div>
+                                            <h3>
+                                                اسم العمل هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <div class="i-img" style="background-image: url(images/clinet-bg.jpg)"></div>
+                                            <h3>
+                                                اسم العمل هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <div class="i-img" style="background-image: url(images/clinet-bg.jpg)"></div>
+                                            <h3>
+                                                اسم العمل هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="services-section col-xs-12" id="services">
+                <div class="jumbo col-xs-12" style="background-image: url(images/clinet-bg.jpg)">
+                    <div class="container">
+                        <h3>خدماتنا</h3>
+                        <p>نحن مجموعة مؤسسات تقدم خدمات نوعية في التسويق والطباعة والدعاية واعلان وكل
+                            مايخص الصـوت والصورة وتنظيم الفعاليات والمهرجانات والمؤتمرات عبر فريق متخصص ذو كفاءة لتقديم خدمات ترضي عملائنا في مختلف القطاعات.</p>
+                    </div>
+                </div>
+                <div class="ab-inbody col-xs-12">
+                    <div class="service-s col-xs-12">
+                        <div class="container">
+                            <div class="g-body col-xs-12">
+                                <div class="block col-md-3 col-sm-6 col-xs-12">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <div class="icon">
+                                                <img src="images\service\111.png" class="norm" alt="">
+                                                <img src="images\service\11.png" class="hov" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <h3>خدمة التسويق</h3>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="block col-md-3 col-sm-6 col-xs-12">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <div class="icon">
+                                                <img src="images\service\222.png" class="norm" alt="">
+                                                <img src="images\service\22.png" class="hov" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <h3>خدمة الدعايا والاعلان</h3>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="block col-md-3 col-sm-6 col-xs-12">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <div class="icon">
+                                                <img src="images\service\333.png" class="norm" alt="">
+                                                <img src="images\service\33.png" class="hov" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <h3>المعارض والفاعليات</h3>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="block col-md-3 col-sm-6 col-xs-12">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <div class="icon">
+                                                <img src="images\service\444.png" class="norm" alt="">
+                                                <img src="images\service\44.png" class="hov" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <h3>الانتاج المرئي والمسموع</h3>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-section col-xs-12" id="news">
+                <div class="jumbo col-xs-12" style="background-image: url(images/clinet-bg.jpg)">
+                    <div class="container">
+                        <h3>اخبار الشركه</h3>
+                        <p>نحن مجموعة مؤسسات تقدم خدمات نوعية في التسويق والطباعة والدعاية واعلان وكل
+                            مايخص الصـوت والصورة وتنظيم الفعاليات والمهرجانات والمؤتمرات عبر فريق متخصص ذو كفاءة لتقديم خدمات ترضي عملائنا في مختلف القطاعات.</p>
+                    </div>
+                </div>
+                <div class="ab-inbody col-xs-12">
+                    <div class="container">
+                        <div class="nw-slider">
+                            <div class="item">
+                                <div class="i-img" style="background-image: url(images/news/1.png)">
+                                    <a href="#">
+                                        <div class="cap">
+                                            <h3>8 مارس</h3>
+                                            <p>12 : 00 ص</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="i-data">
+                                    <a href="#" class="title">احدث التقنيات فى التعامل مع</a>
+                                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي</p>
+                                    <a href="#">
+                                        <i class="fa fa-chevron-circle-left"></i>
+                                        إقرء المزيد
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="i-img" style="background-image: url(images/news/2.png)">
+                                    <a href="#">
+                                        <div class="cap">
+                                            <h3>8 مارس</h3>
+                                            <p>12 : 00 ص</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="i-data">
+                                    <a href="#" class="title">احدث التقنيات فى التعامل مع</a>
+                                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي</p>
+                                    <a href="#">
+                                        <i class="fa fa-chevron-circle-left"></i>
+                                        إقرء المزيد
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="i-img" style="background-image: url(images/news/1.png)">
+                                    <a href="#">
+                                        <div class="cap">
+                                            <h3>8 مارس</h3>
+                                            <p>12 : 00 ص</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="i-data">
+                                    <a href="#" class="title">احدث التقنيات فى التعامل مع</a>
+                                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي</p>
+                                    <a href="#">
+                                        <i class="fa fa-chevron-circle-left"></i>
+                                        إقرء المزيد
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clients-section col-xs-12" id="clients">
+                <div class="jumbo col-xs-12" style="background-image: url(images/clinet-bg.jpg)">
+                    <div class="container">
+                        <h3>عملاء الشركه</h3>
+                        <p>نحن مجموعة مؤسسات تقدم خدمات نوعية في التسويق والطباعة والدعاية واعلان وكل
+                            مايخص الصـوت والصورة وتنظيم الفعاليات والمهرجانات والمؤتمرات عبر فريق متخصص ذو كفاءة لتقديم خدمات ترضي عملائنا في مختلف القطاعات.</p>
+                    </div>
+                </div>
+                <div class="ab-inbody col-xs-12">
+                    <div class="client-s col-xs-12">
+                        <div class="container">
+                            <div class="cl-slider">
+                                <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <img src="images\clients\1.png" alt="">
+                                            <h3>
+                                                <i class="fa fa-angle-left"></i>
+                                                اسم الشركه هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <img src="images\clients\2.png" alt="">
+                                            <h3>
+                                                <i class="fa fa-angle-left"></i>
+                                                اسم الشركه هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <img src="images\clients\3.png" alt="">
+                                            <h3>
+                                                <i class="fa fa-angle-left"></i>
+                                                اسم الشركه هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <img src="images\clients\4.png" alt="">
+                                            <h3>
+                                                <i class="fa fa-angle-left"></i>
+                                                اسم الشركه هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <img src="images\clients\5.png" alt="">
+                                            <h3>
+                                                <i class="fa fa-angle-left"></i>
+                                                اسم الشركه هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <img src="images\clients\6.png" alt="">
+                                            <h3>
+                                                <i class="fa fa-angle-left"></i>
+                                                اسم الشركه هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="inner">
+                                        <a href="#">
+                                            <img src="images\clients\2.png" alt="">
+                                            <h3>
+                                                <i class="fa fa-angle-left"></i>
+                                                اسم الشركه هنا
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-section col-xs-12" id="contact">
+                <div class="jumbo col-xs-12" style="background-image: url(images/clinet-bg.jpg)">
+                    <div class="container">
+                        <h3>تواصل معنا</h3>
+                        <p>نحن مجموعة مؤسسات تقدم خدمات نوعية في التسويق والطباعة والدعاية واعلان وكل
+                            مايخص الصـوت والصورة وتنظيم الفعاليات والمهرجانات والمؤتمرات عبر فريق متخصص ذو كفاءة لتقديم خدمات ترضي عملائنا في مختلف القطاعات.</p>
+                    </div>
+                </div>
+                <div class="ab-inbody col-xs-12">
+                    <div class="contact-s col-xs-12">
+                        <div class="container">
+                            <div class="co-form col-md-6 col-xs-12">
+                                <form action="#" method="get">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="اسمك الكريم" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" placeholder="البريد الالكتروني" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="الموضوع" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea placeholder="الرسالة" class="form-control"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn">
+                                            <i class="fa fa-paper-plane"></i>
+                                            ارسال الرسالة
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="co-data col-md-6 col-xs-12">
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-map-marker"></i>
+                                        جده - شارع الاربعين - مركز الاقصي للاعمال - الدور الخامس
+                                        مكتب 513
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-phone"></i>
+                                        0554439888
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-fax"></i>
+                                        0500755727
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope"></i>
+                                        cloudmediaadv@outlook.com
+                                    </li>
+                                </ul>
+                                <div class="co-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1847128.685172341!2d46.93997312859895!3d25.28157615785457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2z2KfZhNix2YrYp9i2INin2YTYs9i52YjYr9mK2Kk!5e0!3m2!1sar!2seg!4v1550043357494" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="main-footer col-xs-12">
+            <div class="footer-bottom col-xs-12">
+                <div class="container">
+                    <b>جميع الحقوق محفوظه لموقع شركة غيوم الوسائط 2019 &copy;</b>
+                    <div class="ryad-logo" style="display: inline-block;">
+                        <a href="http://elryad.com" title="تصميم مواقع">
+                            <svg height="90" width="102" style=" transform: rotateY(180deg) scale(.35);float: left;width: 77px;">
+                                <line x1="0" y1="0" x2="90" y2="0" style="stroke:rgb(255, 255, 255);stroke-width:35"></line>
+                                <line x1="100" y1="0" x2="0" y2="10" style="stroke:rgb(255, 255, 255);stroke-width:20; transform:rotate(40deg)"></line>
+                                <line x1="10" y1="95" x2="50" y2="45" style="stroke:rgb(255, 255, 255);stroke-width:20;"></line>
+                            </svg>
+                            <div class="lolo-co" style="float: right;text-align: left;padding-top: 27px;position: relative;left: -15px;">
+                                <p style="text-transform: uppercase;font-family: sans-serif;font-size: 24px;line-height: .8;margin: 0;font-weight: 700;color: #fff;letter-spacing: 1px;">elryad</p>
+                                <span style="font-size: 10px;font-family: sans-serif;color: #fff;">web/app solutions</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="toTop col-xs-12 text-center">
+            <i class="fa fa-angle-up"></i>
+        </div>
+    </div>
+
+
+    <!-- Javascript Files -->
+    <script src="js\jquery-2.2.2.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <script src="js\jquery-smoothscroll.js"></script>
+    <script src="js\jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js\modernizr.min.js"></script>
+    <script src="js\owl.carousel.min.js"></script>
+    <script src="js\wow.min.js"></script>
+    <script src="js\lightgallery.js"></script>
+    <script src="js\select2.full.min.js"></script>
+    <script src="js\script.js"></script>
+</body>
+
+</html>
